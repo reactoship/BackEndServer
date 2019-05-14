@@ -96,7 +96,7 @@ const startListening = () => {
 
 async function bootApp() {
   await sessionStore.sync()
-  await syncDb()
+  // await syncDb()
   await createApp()
   await startListening()
 }
